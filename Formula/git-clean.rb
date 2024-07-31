@@ -1,8 +1,8 @@
 class GitClean < Formula
   desc "Command-line tool for cleaning up local git branches."
   homepage "https://github.com/mcasper/git-clean"
-  url "https://github.com/mcasper/git-clean/archive/0.5.3.tar.gz"
-  sha256 "7323f837a0884053f4f885dfd24d0172aa3a105a6a1e610d920b880ecc6da7b1"
+  url "https://github.com/mcasper/git-clean/archive/0.8.0.tar.gz"
+  sha256 "eb8c0fbaaef8233fb6d20e765182212b0b1e5c1285fee5f0204711f59e9eba0f"
   head "https://github.com/mcasper/git-clean.git"
 
   depends_on "rust" => :build
